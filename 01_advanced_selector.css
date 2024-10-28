@@ -1,0 +1,32 @@
+.mydiv p {
+    color: red;
+}
+
+.mydiv>p{
+    color: blue;
+}
+
+div+p{
+    color: purple;
+}
+
+p[id]{
+    color: orange;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid red;
+}
+
+::placeholder{
+    color: teal;
+}
+
+::selection{
+    background: red;
+    color: white;
+}
+
+:root{
+    font-size: 30px;
+}
